@@ -6,7 +6,14 @@ with open("HTML/ITE-SCRAP-P1.html", "r", encoding="utf-8") as file:
 elements = soup.find_all(['p', 'h1', 'h2'])
 for element in elements:
     text = element.text.strip()
-    # Encontrar y Eliminar SPAM
-    if "Me gusta enFacebook" not in text and "Síguenos enTwitter" not in text and "Síguenos enYouYube" not in text and "Síguenos enInstagram" not in text and "Manda un mensaje porWhatsApp" not in text:
+    # Encontrar y eliminar SPAM
+    spam_frases = [
+        "Me gusta enFacebook",
+        "Síguenos enTwitter",
+        "Síguenos enYouYube",
+        "Síguenos enInstagram",
+        "Manda un mensaje porWhatsApp"
+    ]
+    if not any(spam_frase in text for spam_frase in spam_frases):
         print(text)
         
