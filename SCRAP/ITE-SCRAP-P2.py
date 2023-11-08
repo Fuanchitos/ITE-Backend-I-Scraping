@@ -6,7 +6,7 @@ with open("HTML/ITE-SCRAP-P2.html", "r", encoding="utf-8") as file:
 # Buscar elementos de texto
 elements = soup.find_all(['p', 'h1', 'h2', 'h3', 'li'])
 for element in elements:
-    # Verificar si esta ligado a un <nav> para omitir los <li> dentro
+    # Verificar si esta ligado a un <nav> para omitir todos los <li> dentro 
     if element.name == 'li' and element.find_parent('nav'):
         continue
 
