@@ -33,6 +33,7 @@ El objetivo es obtener datos relevantes de las páginas del Instituto para un an
 - Extraer párrafos informativos
 - Recopilar títulos de secciones importantes
 - Obtener datos estructurados de tablas específicas
+- Ignorar palabras que son inecesarias a la hora de recopilar informacion
 
 ## Non-Goals
 - Realizar acciones invasivas en las páginas web del Instituto
@@ -61,7 +62,3 @@ Para el scraping de las páginas del Instituto Tecnológico de Ensenada, se util
 - Respetar los términos de uso del sitio web del Instituto Tecnológico de Ensenada.
 - Evitar realizar solicitudes excesivas para no sobrecargar el servidor.
 - Asegurar que el scraping se realice de manera ética y legal.
-
-## Métricas
-- Tiempo requerido para el scraping de información.
-- Precisión en la extracción de datos (párrafos, títulos y tablas).
