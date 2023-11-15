@@ -28,10 +28,10 @@ Estado: [En Revisión]
    with open("html/oferta-educativa/posgrados/doctorado-en-ciencias-en-ingenieria-mecatronica.html", "r", encoding="utf-8") as file:
     soup = BeautifulSoup(file, 'html.parser').
 5. En este caso estas utilizando el scrap para el apartado oferta-educativa/posgrados/, solo se actualizara el ultimo nombre.
- 
+
 ## Contenidos
 - Objetivo
-- Objetivos
+- Metas
 - No Objetivos
 - Contexto
 - Visión General
@@ -42,7 +42,7 @@ Estado: [En Revisión]
     - Recopilación de Tablas
 - Consideraciones
 
-## Objetivo
+## Metas
 Crear un script en Python para hacer scraping en las páginas web del Instituto Tecnológico de Ensenada, extrayendo información clave como párrafos, títulos y tablas.
 
 El objetivo es obtener datos relevantes de las páginas del Instituto para un análisis posterior o para integrar la información en otras aplicaciones.
