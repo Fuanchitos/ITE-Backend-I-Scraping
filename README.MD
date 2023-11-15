@@ -10,9 +10,14 @@ Estado: [En Revisión]
 
 ## Instalacion
 1. Instalar python 3.11.4
-2. Instalar la libreria de BeautifulSoup4 "BS4"
+2. Opcion 1 
+   Instalar la libreria de BeautifulSoup4 "BS4"
    con pip install bs4
 3. Listo para usar los codigos de scrap
+
+4. Opcion 2
+5. Utilizar el comando pip freeze > requirements.txt
+6. Listo para usar los codigos de scrap
 
 ## Instrucciones de Uso
 1. Tener instalado las librerias "BS4"
