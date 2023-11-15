@@ -36,11 +36,6 @@ Estado: [En Revisión]
     - Recopilación de Tablas
 - Consideraciones
 
-
-## Enlaces
-- [Enlace 1](#)
-- [Enlace 2](#)
-
 ## Objetivo
 Crear un script en Python para hacer scraping en las páginas web del Instituto Tecnológico de Ensenada, extrayendo información clave como párrafos, títulos y tablas.
 
