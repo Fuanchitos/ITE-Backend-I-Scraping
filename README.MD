@@ -10,14 +10,14 @@ Estado: [En Revisión]
 
 ## Instalacion
 1. Instalar python 3.11.4
-2. Instalar la libreria de BS4 (BeautifulSoup4)
+2. Instalar la libreria de BeautifulSoup4 "BS4"
    con pip install bs4
 3. Listo para usar los codigos de scrap
 
 ## Instrucciones de Uso
 1. Tener instalado las librerias "BS4"
 2. Abrir la carpeta "scraps".
-3. Elegir un archivo py ya que cada uno hace referencia a una seccion de la pagina del instituto tecnologico de ensenada.
+3. Elige un archivo .py, ya que cada uno hace referencia a una sección de la página del Instituto Tecnológico de Ensenada.
 4. Utiliza los nombres y rutas de los archivos HTML para realizar el scraping
    por ejemplo: 
    with open("html/oferta-educativa/posgrados/doctorado-en-ciencias-en-ingenieria-mecatronica.html", "r", encoding="utf-8") as file:
