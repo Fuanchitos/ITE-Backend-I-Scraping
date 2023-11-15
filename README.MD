@@ -27,7 +27,8 @@ Estado: [En Revisión]
    por ejemplo: 
    with open("html/oferta-educativa/posgrados/doctorado-en-ciencias-en-ingenieria-mecatronica.html", "r", encoding="utf-8") as file:
     soup = BeautifulSoup(file, 'html.parser').
-
+5. En este caso estas utilizando el scrap para el apartado oferta-educativa/posgrados/, solo se actualizara el ultimo nombre.
+ 
 ## Contenidos
 - Objetivo
 - Objetivos
